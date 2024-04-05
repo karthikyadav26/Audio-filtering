@@ -4,7 +4,7 @@ from scipy import signal
 import soundfile as sf
 
 #read .wav file 
-input_signal,fs = sf.read('keyboard.wav') 
+input_signal,fs = sf.read('Karthik.wav') 
 
 #sampling frequency 
 sampl_freq=fs
@@ -36,4 +36,4 @@ plt.plot(omega, abs(H(np.exp(1j*omega))))
 plt.xlabel('$\omega$')
 plt.ylabel('$|H(e^{\jmath\omega})| $')
 plt.grid()
-#plt.savefig("Filter_Response")
+plt.show()
