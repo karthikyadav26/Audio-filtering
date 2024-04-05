@@ -23,9 +23,9 @@ def butter_lowpass_filter(data, cutoff, fs, order=4):
     return np.int16(y)
 
 # Parameters
-input_file = "keyboard.wav"
-output_file_builtin = "keyboard_filtered_builtin.wav"
-output_file_custom = "keyboard_filtered_custom.wav"
+input_file = "Karthik.wav"
+output_file_builtin = "Karthik_filtered_builtin.wav"
+output_file_custom = "Karthik_filtered_custom.wav"
 cutoff_frequency = 4000  # Hz
 order = 4
 max_time = 5  # seconds
