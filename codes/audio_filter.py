@@ -2,7 +2,7 @@ import soundfile as sf
 import numpy as np
 from scipy import signal
 #read .wav file 
-input_signal,fs = sf.read('keyboard.wav') 
+input_signal,fs = sf.read('karthik.wav') 
 
 #sampling frequency of Input signal
 sampl_freq=fs
